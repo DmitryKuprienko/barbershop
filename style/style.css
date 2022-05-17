@@ -46,27 +46,21 @@
     margin-right: 30px;
 }
 
-.hero-fon {
-    background-image: url(../imges/Slider\ img\ 3.jpg); 
-  
-   padding: 270px 0 245px;
+.hero-container {
+    background-image: url("../imges/Slider img 3.jpg");
+    padding: 270px 0 205px 96px;
     background-repeat: no-repeat;
     background-size: cover;
-    
-}
-.hero-container{
-    margin: 272px 0 206px 96px;
-
 }
     
 
 .intro {
     font-family: 'Open Sans',sans-serif;
     font-weight: 600;
+    font-size: 11px;
     text-transform: uppercase;
-    margin-bottom: 15px;
     color: rgba(157, 164, 189, 0.6);
-    
+    margin-bottom: 15px;
 }
 
 .titlle {
@@ -78,15 +72,14 @@
     
 }
 .hero-discription{
-    font-family: 'Open Sans', sans-serif;
-    
-    font-weight: 400;
-    
-
-    margin-bottom: 15px;
-    color: rgba(157, 164, 189, 0.6);
-    
+    font-family: "Open Sans", sans-serif;
+        font-weight: 400;
+        font-size: 18px;
+        color: #9da4bd;
+        width: 400px;
     }
+    
+    
     .link{
         list-style:none;
     }
