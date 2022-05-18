@@ -1,3 +1,8 @@
+:root{
+    --gap: 20px;
+    --fon:"Open Sans",
+        sans-serif;}
+
 *{
     margin: 0;
     padding: 0;
@@ -12,7 +17,7 @@
     margin-right: 40px;
     color: #FFFFFF;
     text-decoration: none;
-    font-family: 'Open Sans',sans-serif;
+    font-family: var(--fon);
     font-size: 12px;
 }
 
@@ -25,7 +30,7 @@
     border-radius: 25px;
     background-color: transparent;
     padding: 10px 20px;
-    font-family: 'Open Sans';
+    font-family: var(--fon);
     color: #FFFFFF;
     font-weight: 600;
     font-size: 12px;
@@ -38,12 +43,14 @@
 .conteyner {
     width: 1140px;
     margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
 }
 
 /* } 2000-1140=860/2=430 
 430-1140-430 */
 .social {
-    margin-right: 30px;
+   width: 30px;
 }
 
 .hero-container {
@@ -55,7 +62,7 @@
     
 
 .intro {
-    font-family: 'Open Sans',sans-serif;
+    font-family: var(--fon);
     font-weight: 600;
     font-size: 11px;
     text-transform: uppercase;
@@ -67,12 +74,12 @@
     font-family: 'Raleway',sans-serif;
     font-weight: 700;
     font-size: 72px;
-    margin-bottom: 20px;
+    margin-bottom: var(--gap);
     color: #FFFFFF;
     
 }
 .hero-discription{
-    font-family: "Open Sans", sans-serif;
+    font-family: var(--fon);
         font-weight: 400;
         font-size: 18px;
         color: #9da4bd;
@@ -83,3 +90,16 @@
     .link{
         list-style:none;
     }
+.discription{
+    padding: 130px 0 90px;
+}
+.discription-imeg{
+    margin-right: 10px;
+}
+.img-conteyner{
+    width: 570px;
+    margin-right: 64px;
+}
+.content{
+    width: 500px;
+}
