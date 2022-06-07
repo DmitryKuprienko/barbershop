@@ -1,145 +1,160 @@
-:root{
-    --gap: 20px;
-    --fon:"Open Sans",
-        sans-serif;}
-
+:root {
+  --gap: 20px;
+  --fon: 'Open Sans', sans-serif;
+}
 
 .header {
-    padding: 48px 62px 48px 188px;
-    background-color: gray;
+  padding: 48px 62px 48px 188px;
+  background-color: gray;
+  display: flex;
+  align-items: center;
 }
-.navigation{
-    display: flex;
+.navigation {
+  display: flex;
+}
+.navigation-link {
+  /* margin-right: 40px;  */
 
+  display: block;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
-.navigation-link{
-    
+/* .navigation-link:last-child{
+    margin-right: 0;
+}  */
+/* .navigation-link:not(last-child){
+    margin-right: 40px;
+} */
+.navigation-link + .navigation-link {
+  margin-left: 40px;
 }
 .navigation-link,
 .phone {
- 
-    color: #FFFFFF;
-    text-decoration: none;
-    font-family: var(--fon);
-    font-size: 12px;
+  color: #ffffff;
+  text-decoration: none;
+  font-family: var(--fon);
+  font-size: 12px;
 }
 
 .navigation-link:hover {
-    color: #FF6C00;
+  color: #ff6c00;
+}
+.contact {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin: 0;
+}
+.contact .link + .link {
+  margin-left: 12px;
 }
 
 .rezerv {
-    border: 1px solid #FF6C00;
-    border-radius: 25px;
-    background-color: transparent;
-    padding: 10px 20px;
-    font-family: var(--fon);
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 12px;
-    text-transform: uppercase;
-
+  border: 1px solid #ff6c00;
+  border-radius: 25px;
+  background-color: transparent;
+  padding: 10px 20px;
+  font-family: var(--fon);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 12px;
+  text-transform: uppercase;
 }
 
-
-
 .conteyner {
-    width: 1140px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+  width: 1140px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
 }
 
 /* } 2000-1140=860/2=430 
 430-1140-430 */
 .social {
-   width: 30px;
+  width: 30px;
 }
 
 .hero-container {
-    background-image: url("../imges/Slider img 3.jpg");
-    padding: 270px 0 205px 96px;
-    background-repeat: no-repeat;
-    background-size: cover;
+  background-image: url('../imges/Slider img 3.jpg');
+  padding: 270px 0 205px 96px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
-    
 
 .intro {
-    font-family: var(--fon);
-    font-weight: 600;
-    font-size: 11px;
-    text-transform: uppercase;
-    color: rgba(157, 164, 189, 0.6);
-    margin-bottom: 15px;
+  font-family: var(--fon);
+  font-weight: 600;
+  font-size: 11px;
+  text-transform: uppercase;
+  color: rgba(157, 164, 189, 0.6);
+  margin-bottom: 15px;
 }
 
 .titlle {
-    font-family: 'Raleway',sans-serif;
-    font-weight: 700;
-    font-size: 72px;
-    margin-bottom: var(--gap);
-    color: #FFFFFF;
-    
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 72px;
+  margin-bottom: var(--gap);
+  color: #ffffff;
 }
-.hero-discription{
-    font-family: var(--fon);
-        font-weight: 400;
-        font-size: 18px;
-        color: #9da4bd;
-        width: 400px;
-    }
-    
-    
-    .link{
-        list-style:none;
-    }
-.discription{
-    padding: 130px 0 90px;
+.hero-discription {
+  font-family: var(--fon);
+  font-weight: 400;
+  font-size: 18px;
+  color: #9da4bd;
+  width: 400px;
 }
-.discription-imeg{
-    margin-right: 10px;
+
+.link {
+  list-style: none;
 }
-.img-conteyner{
-    width: 570px;
-    margin-right: 64px;
+.discription {
+  padding: 130px 0 90px;
 }
-.content{
-    width: 500px;
+.discription-imeg {
+  margin-right: 10px;
+}
+.img-conteyner {
+  width: 570px;
+  margin-right: 64px;
+}
+.content {
+  width: 500px;
 }
 /* проба по конспекту по удалять */
 
-    .links {
-        display: inline-block;
-        padding: 16px 32px;
-    
-        border-radius: 3px;
-        background-color: teal;
-        color: white;
-    
-        font-family: sans-serif;
-        font-size: 14px;
-        text-decoration: none;
-        text-transform: uppercase;
-        font-weight: 700;
+.links {
+  display: inline-block;
+  padding: 16px 32px;
+
+  border-radius: 3px;
+  background-color: teal;
+  color: white;
+
+  font-family: sans-serif;
+  font-size: 14px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: 700;
 }
 .pane {
-    display: none;
-    padding: 8px;
-    border: 1px solid blue;
-    border-radius: 3px;
-  }
-  
-  .is-active {
-    display: block;
-  }
+  display: none;
+  padding: 8px;
+  border: 1px solid blue;
+  border-radius: 3px;
+}
 
-  /*
+.is-active {
+  display: block;
+}
+
+/*
  * Читається як: застосувати стилі до всіх елементів з класом list-item,
  * які не є останнім елементом в колекції сусідів.
  */
-  .list-item:not(:last-child) {
-    margin-bottom: 20px;
-  }
-  .list-item:nth-child(3n + 1) {
-    background-color: rgb(255, 0, 0);
-  }
+.list-item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.list-item:nth-child(3n + 1) {
+  background-color: rgb(255, 0, 0);
+}
