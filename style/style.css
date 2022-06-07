@@ -3,18 +3,21 @@
     --fon:"Open Sans",
         sans-serif;}
 
-*{
-    margin: 0;
-    padding: 0;
-}
+
 .header {
     padding: 48px 62px 48px 188px;
     background-color: gray;
 }
+.navigation{
+    display: flex;
 
+}
+.navigation-link{
+    
+}
 .navigation-link,
 .phone {
-    margin-right: 40px;
+ 
     color: #FFFFFF;
     text-decoration: none;
     font-family: var(--fon);
